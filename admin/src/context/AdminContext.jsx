@@ -13,7 +13,7 @@ const AdminContextProvider = (props) => {
     const [patientRecords, setPatientRecords] = useState([]);
 
 
-    const backendUrl = "https://health-bridge-backend-70nn.onrender.com";
+    const backendUrl = "https://health-bridge-bkd.onrender.com";
 
     // ------------------ DOCTORS ------------------
     const getAllDoctors = async () => {
